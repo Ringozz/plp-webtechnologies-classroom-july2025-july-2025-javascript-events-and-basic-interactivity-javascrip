@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive JS Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎉 JavaScript Interactivity Demo</h1>
+
+  <!-- PART 1: EVENT HANDLING DEMO -->
+  <section>
+    <h2>Part 1: Event Handling</h2>
+    <button id="clickBtn">Click Me!</button>
+    <p id="message"></p>
+  </section>
+
+  <!-- PART 2: INTERACTIVE ELEMENTS -->
+  <section>
+    <h2>Part 2: Interactive Elements</h2>
+    
+    <!-- Light/Dark Mode -->
+    <button id="themeToggle">🌞 Toggle Dark Mode</button>
+    
+    <!-- Counter -->
+    <div>
+      <button id="decrement">➖</button>
+      <span id="counter">0</span>
+      <button id="increment">➕</button>
+    </div>
+    
+    <!-- Collapsible FAQ -->
+    <div class="faq">
+      <h3 class="faq-question">What is JavaScript? ⬇</h3>
+      <p class="faq-answer">JavaScript is a programming language that makes web pages interactive.</p>
+    </div>
+  </section>
+
+  <!-- PART 3: FORM VALIDATION -->
+  <section>
+    <h2>Part 3: Form Validation</h2>
+    <form id="signupForm">
+      <label>
+        Name:
+        <input type="text" id="name">
+        <small class="error"></small>
+      </label><br>
+
+      <label>
+        Email:
+        <input type="text" id="email">
+        <small class="error"></small>
+      </label><br>
+
+      <label>
+        Password:
+        <input type="password" id="password">
+        <small class="error"></small>
+      </label><br>
+
+      <button type="submit">Sign Up</button>
+    </form>
+    <p id="formSuccess"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
